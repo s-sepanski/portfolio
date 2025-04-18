@@ -1,6 +1,3 @@
-# Welcome! My name is S. Sepanski
-Career contributions over time:
-
 ```mermaid
 graph TD
     A[Entry Level 2015] --> B[Mid Level 2017]
