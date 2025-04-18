@@ -1,6 +1,6 @@
 # Welcome! My name is S. Sepanski
 
-Career contributions over time:
+Career contributions over time (WIP):
 
 ```mermaid
 graph TD
