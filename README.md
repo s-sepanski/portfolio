@@ -4,9 +4,9 @@ Career contributions over time (WIP):
 
 ```mermaid
 graph TD
-    A[Entry Level 2015] --> B[Mid Level 2017]
-    B --> C["Senior Level 2019<br>• Item 1<br>• Item 2<br>• Item 3"]
-    C --> D[Leadership 2022]
+    A[Joined @USAA 2020] --> B[todo]
+    B --> C["SWE 1 2025<br>• Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br>• Item 2<br>• Item 3"]
+    C --> D[todo]
     B --> E[Achievement 1]
     C --> F[Achievement 2]
     D --> G[Achievement 3]
