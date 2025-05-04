@@ -14,7 +14,7 @@ Todo
 ## Key for Node Content
 
 - **@**: Indicates having joined or completed work associated with a particular company or organization.
-- **Level**: Todo.
+- **Level**: Software engineer level, normalized to L1-L10, as described by [this LinkedIn post](https://www.linkedin.com/pulse/understanding-software-engineer-levels-from-entry-level-senior-pke9c/) (L1-L5) and [levels.fyi](https://www.levels.fyi/blog/swe-level-framework.html) (L6-L10)
 
 ## About Node Content
 
@@ -24,7 +24,7 @@ Todo
 
 ```mermaid
 graph TD
-    NewNode["<div style='font-size:75%; color:#848484; text-align:center;'>2015-2020</div>Level: student, contractor"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div>Joined @USAA"]
+    NewNode["<div style='font-size:75%; color:#848484; text-align:center;'>2015-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Level: student, contractor"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div>Joined @USAA<br><b>Level: L1</b>"]
     A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div>SWE 1 2025<br>• Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br>• Item 2<br>• Item 3"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
@@ -44,4 +44,8 @@ graph TD
 ```
 
 # Coding Standards for This Project
-- This project aims to follow [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716), electing to substitute the word `task:` for `chore:` because it has a slightly more positive connotation. 
+
+- This project aims to follow [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716), electing to make the following modifications:
+  - Substitute the word `task:` for `chore:` because it has a slightly more positive connotation.
+  - Add a new category:
+    - `wip`: (work in progress, a commit that really should be squashed. Most likely made to save changes because I had to go afk due to getting interrupted by some happenstance of life)
