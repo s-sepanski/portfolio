@@ -24,14 +24,16 @@ Todo
 
 ```mermaid
 graph TD
-    NewNode["<div style='font-size:75%; color:#848484; text-align:center;'>2015-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Level: student, contractor"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div>Joined @USAA<br><b>Level: L1</b>"]
+    PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015-2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
+    ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Contractor"] -->|then| A
     A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div>SWE 1 2025<br>• Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br>• Item 2<br>• Item 3"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
     B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 1"]
     C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 2"]
     D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 3"]
-    style NewNode fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
+    style PreStudentNode fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
+    style ContractorNode fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
     style A fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#230519
     style B fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
     style C fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
@@ -40,7 +42,7 @@ graph TD
     style F fill:#c2c2c2,stroke:#343434,stroke-width:2px,color:#1c1c1c
     style G fill:#c2c2c2,stroke:#343434,stroke-width:2px,color:#1c1c1c
     classDef rounded stroke-width:2px,rx:10,ry:10;
-    class NewNode,A,B,C,D,E,F,G rounded;
+    class PreStudentNode,ContractorNode,A,B,C,D,E,F,G rounded;
 ```
 
 # Coding Standards for This Project
