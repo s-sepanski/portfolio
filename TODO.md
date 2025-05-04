@@ -1,0 +1,2 @@
+# TODO 
+- come up with my own version of semantic versioning and document it here (or perhaps in some GitHub gist). the idea would be to make words like 'chore' more positive and keep words like 'feat'. Use https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716 as inspo
