@@ -10,6 +10,15 @@ Todo
 - **then**: Indicates the passage of time between events.
 - **unlabeled**: This connection is either invalid or in draft status.
 
+## Key for Node Content
+
+- **@**: Indicates having joined or completed work associated with a particular company or organization.
+
+## About Node Content
+- **Dates**:
+  - Formats like **YYYY** indicate that the node transpired for an unspecified duration in the given calendar year 
+
+
 ```mermaid
 graph TD
     A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div>Joined @USAA"] -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
