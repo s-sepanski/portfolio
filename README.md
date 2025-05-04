@@ -42,3 +42,6 @@ graph TD
     classDef rounded stroke-width:2px,rx:10,ry:10;
     class NewNode,A,B,C,D,E,F,G rounded;
 ```
+
+# Coding Standards for This Project
+- This project aims to follow [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716), electing to substitute the word `task:` for `chore:` because it has a slightly more positive connotation. 
