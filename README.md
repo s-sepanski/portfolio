@@ -4,7 +4,6 @@ Career contributions over time (WIP):
 
 ## Color Key for Nodes
 
-
 - <span style="color:#f58e9f;">&#9632;</span> Move - Indicates a horizontal or vertical move. Fill: #f58e9f. Stroke: #610b2f.
 - <span style="color:#d1193e;">&#9632;</span> Creation - A delivered piece of value or work. Fill: #d1193e. Stroke: #610b2f.
 - <span style="color:#042748;">&#9632;</span> Chat - A chat or talk delivered to some group of people. Fill: #042748. Stroke: #042e5c.
@@ -38,8 +37,8 @@ graph TD
     B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 1"]
     C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 2"]
     D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 3"]
-    style PreStudentNode fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
-    style ContractorNode fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
+    style PreStudentNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
+    style ContractorNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style A fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#230519
     style B fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
     style C fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
