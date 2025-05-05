@@ -4,7 +4,7 @@ Career contributions over time (WIP):
 
 ## Color Key for Nodes
 
-Todo
+Todo - light red can be a shift in position, company, or team. dark red can be an accomplishment. the other existing colors can be marked as tbd. blue, perhaps, could have something to do with relationships or people
 
 ## Label Key for Relationships
 
@@ -14,6 +14,7 @@ Todo
 ## Key for Node Content
 
 - **@**: Indicates having joined or completed work associated with a particular company or organization.
+- **#**: Indicates a skill or technology of interest. TODO
 - **Level**: Software engineer level, normalized to L1-L10, as described by [this LinkedIn post](https://www.linkedin.com/pulse/understanding-software-engineer-levels-from-entry-level-senior-pke9c/) (L1-L5) and [levels.fyi](https://www.levels.fyi/blog/swe-level-framework.html) (L6-L10)
 
 ## About Node Content
