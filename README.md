@@ -32,20 +32,20 @@ graph TD
     PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015-2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
     ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Intern/Contractor"] -->|then| A
     A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
-    B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div><SWE 1 2025<br>• Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br>• Item 2<br>• Item 3"]
-    C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
-    B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 1"]
-    C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 2"]
-    D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>Achievement 3"]
+    B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div><SWE 1 2025<br>TODO • Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br>• Item 2<br>• Item 3"]
+    C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 0"]
+    B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 1"]
+    C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 2"]
+    D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 3"]
     style PreStudentNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style ContractorNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style A fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#230519
     style B fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
-    style C fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
+    style C fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     style D fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
-    style E fill:#c2c2c2,stroke:#343434,stroke-width:2px,color:#1c1c1c
+    style E fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
     style F fill:#c2c2c2,stroke:#343434,stroke-width:2px,color:#1c1c1c
-    style G fill:#c2c2c2,stroke:#343434,stroke-width:2px,color:#1c1c1c
+    style G fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
     classDef rounded stroke-width:2px,rx:10,ry:10;
     class PreStudentNode,ContractorNode,A,B,C,D,E,F,G rounded;
 ```
