@@ -25,7 +25,7 @@ Todo
 ```mermaid
 graph TD
     PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015-2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
-    ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Contractor"] -->|then| A
+    ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Intern/Contractor"] -->|then| A
     A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div>SWE 1 2025<br>• Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br>• Item 2<br>• Item 3"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
