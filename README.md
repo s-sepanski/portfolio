@@ -53,7 +53,4 @@ graph TD
 
 # Coding Standards for This Project
 
-- This project aims to follow [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716), electing to make the following modifications:
-  - Substitute the word `task:` for `chore:` because it has a slightly more positive connotation.
-  - Add a new category:
-    - `wip`: (work in progress, a commit that really should be squashed. Most likely made to save changes because I had to go afk due to some happenstance of life)
+- [Standards for commit messages](https://gist.github.com/s-sepanski/44b111869e0be434ea3d1a2335b9db68)
