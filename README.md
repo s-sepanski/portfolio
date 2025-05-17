@@ -29,7 +29,7 @@ Career contributions over time (WIP):
   - Formats like **YYYY-YYYY** indicate that the node transpired for an unspecified duration within the given year range
 
 ```mermaid
-graph TD
+graph BT
     PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015-2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
     ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Intern/Contractor"] -->|then| A
     A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
