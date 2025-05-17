@@ -38,7 +38,7 @@ Career contributions over time (WIP):
 graph BT
     PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015 to 2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
     ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018 to 2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Intern/Contractor"] -->|then| A
-    A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
+    A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>2025-01 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Joined Bank Cloud Enablement team<br/><b>Impact: </b>Company-wide"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot<br/></div>"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 0"]
     B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 1"]
@@ -47,7 +47,7 @@ graph BT
     style PreStudentNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style ContractorNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style A fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#230519
-    style B fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
+    style B fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style C fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     style D fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     style E fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
