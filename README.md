@@ -38,7 +38,7 @@ graph BT
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot<br/></div>"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 0"]
     B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 1"]
-    C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 2"]
+    C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>2025-04 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Review board for DynamoDB & Aurora schemas<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #NoSQL-Workbench<br/></div>"]
     D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 3"]
     style PreStudentNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style ContractorNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
