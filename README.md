@@ -8,7 +8,7 @@ Career contributions over time (WIP):
 - <span style="color:#d1193e;">&#9632;</span> Creation - A delivered piece of value or work. Fill: #d1193e. Stroke: #610b2f.
 - <span style="color:#042748;">&#9632;</span> Chat - A chat or talk delivered to some group of people. Fill: #042748. Stroke: #042e5c.
 - <span style="color:#c2c2c2;">&#9632;</span> Recognition - A recognition, award, or honor offered by some external person or entity. <i>Agradecida que soy por esas cosas, cuando pasen (igual sigo adelante)</i>. Fill: #c2c2c2. Stroke: #343434.
-- <span style="color:#e5e5e5;">&#9632;</span> Committee - Participation in some committee, board, or task force. Fill: #e5e5e5. Stroke: #343434.
+- <span style="color:#7c7484;">&#9632;</span> Committee - Participation in some committee, board, or task force. Fill: #7c7484. Stroke: #2e092d. <span style="color:#FFFFFF; background:#7c7484; padding:2px 6px; border-radius:3px;">Text: #FFFFFF</span>
 
 ## Label Key for Relationships
 
@@ -47,7 +47,7 @@ graph BT
     style C fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     style D fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     style E fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
-    style F fill:#c2c2c2,stroke:#343434,stroke-width:2px,color:#1c1c1c
+    style F fill:#7c7484,stroke:#2e092d,stroke-width:2px,color:#FFFFFF
     style G fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
     classDef rounded stroke-width:2px,rx:10,ry:10;
     class PreStudentNode,ContractorNode,A,B,C,D,E,F,G rounded;
