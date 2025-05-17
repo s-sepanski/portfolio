@@ -20,7 +20,10 @@ Career contributions over time (WIP):
 - **@**: Indicates having joined or completed work associated with a particular company or organization.
 - **#**: Indicates a skill or technology of interest. Use dashses where spaces would go. TODO
 - **Level**: Software engineer level, normalized to L1-L10, as described by [this LinkedIn post](https://www.linkedin.com/pulse/understanding-software-engineer-levels-from-entry-level-senior-pke9c/) (L1-L5) and [levels.fyi](https://www.levels.fyi/blog/swe-level-framework.html) (L6-L10). Style as bold.
-- **Impact**: Todo. Style as bold.
+- **Impact**: Impact or reach of specified effort.
+  - Enterprise-wide: impactful across companies in the enterprise
+  - Company-wide: impactful across multiple departments in the company
+  - Department-wide: impactful across a department in the company
 
 ## About Node Content
 
@@ -29,6 +32,7 @@ Career contributions over time (WIP):
   - Formats like **YYYY to YYYY** indicate that the node transpired for an unspecified duration within the given year range
   - Formats like **YYYY-MM** indicate that the node transpired for an unspecified duration in the given month
   - Formats like **YYYY-MM to YYYY-MM** indicate that the node transpired for an unspecified duration within the given month range
+  - Formats like **YYYY-MM to today** indicate that the node began in the specified month and is ongoing
 
 ```mermaid
 graph BT
