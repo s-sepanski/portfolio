@@ -26,12 +26,14 @@ Career contributions over time (WIP):
 
 - **Dates**:
   - Formats like **YYYY** indicate that the node transpired for an unspecified duration in the given calendar year
-  - Formats like **YYYY-YYYY** indicate that the node transpired for an unspecified duration within the given year range
+  - Formats like **YYYY to YYYY** indicate that the node transpired for an unspecified duration within the given year range
+  - Formats like **YYYY-MM** indicate that the node transpired for an unspecified duration in the given month
+  - Formats like **YYYY-MM to YYYY-MM** indicate that the node transpired for an unspecified duration within the given month range
 
 ```mermaid
 graph BT
-    PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015-2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
-    ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018-2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Intern/Contractor"] -->|then| A
+    PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015 to 2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
+    ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2018 to 2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Intern/Contractor"] -->|then| A
     A -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div><SWE 1 2025<br>TODO • Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot<br/></div>"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 0"]
