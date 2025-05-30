@@ -46,6 +46,7 @@ graph BT
     Creation2 -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>2025-01 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Joined Bank Cloud Enablement team<br/><b>Impact: </b>Company-wide"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot<br/></div>"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Recorded and shared 15-minute demo showing potential of RAG with prompt libraries for improved development speed<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot #RAG #Prompt-Engineering<br/></div>"]
+    C -->|then| Chat2["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Recorded and shared 15-minute demo on standards for teams documenting DynamoDB queries<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Dynamo-API<br/></div>"]
     B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 1"]
     C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>2025-04 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Review board for DynamoDB & Aurora schemas<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #NoSQL-Workbench<br/></div>"]
     D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 3"]
@@ -61,8 +62,9 @@ graph BT
     style E fill:#e5e5e5,stroke:#343434,stroke-width:2px,color:#1c1c1c
     style F fill:#7c7484,stroke:#2e092d,stroke-width:2px,color:#FFFFFF
     style G fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
+    style Chat2 fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     classDef rounded stroke-width:2px,rx:10,ry:10;
-    class PreStudentNode,ContractorNode,A,Creation1,Chat,Creation2,B,C,D,E,F,G rounded;
+    class PreStudentNode,ContractorNode,A,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2 rounded;
 ```
 
 # Coding Standards for This Project
