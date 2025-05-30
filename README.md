@@ -24,6 +24,8 @@ Career contributions over time (WIP):
   - Enterprise-wide: impactful across companies in the enterprise
   - Company-wide: impactful across multiple departments in the company
   - Department-wide: impactful across a department in the company
+  - Product-wide: impactful across entire application or across all teams in project
+  - Team-wide: impactful across development team
 
 ## About Node Content
 
@@ -38,7 +40,8 @@ Career contributions over time (WIP):
 graph BT
     PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015 to 2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
     ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2019 to 2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Contractor"] -->|then| A
-    A -->|then| Chat["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Gave talk to 50-odd people in technical community on DynamoDB Schema Design<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Single-Table-Design<br/></div>"]
+    A -->|then| Creation1["<div style='font-size:75%; color:#848484; text-align:center;'>2021</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Delivered major project for @USAA<br/><b>Impact: </b>Department-wide"]
+    Creation1 -->|then| Chat["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Gave talk to 50-odd people in technical community on DynamoDB Schema Design<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Single-Table-Design<br/></div>"]
     Chat -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>2025-01 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Joined Bank Cloud Enablement team<br/><b>Impact: </b>Company-wide"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot<br/></div>"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 0"]
@@ -48,6 +51,7 @@ graph BT
     style PreStudentNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style ContractorNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style A fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#230519
+    style Creation1 fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
     style Chat fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     style B fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style C fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
@@ -56,7 +60,7 @@ graph BT
     style F fill:#7c7484,stroke:#2e092d,stroke-width:2px,color:#FFFFFF
     style G fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
     classDef rounded stroke-width:2px,rx:10,ry:10;
-    class PreStudentNode,ContractorNode,A,Chat,B,C,D,E,F,G rounded;
+    class PreStudentNode,ContractorNode,A,Creation1,Chat,B,C,D,E,F,G rounded;
 ```
 
 # Coding Standards for This Project
