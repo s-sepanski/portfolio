@@ -49,7 +49,7 @@ graph BT
     C -->|then| Chat2["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Recorded and shared 15-minute demo on standards for teams documenting DynamoDB queries<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Dynamo-API<br/></div>"]
     B -->|then| E["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 1"]
     C -->|then| F["<div style='font-size:75%; color:#848484; text-align:center;'>2025-04 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Review board for DynamoDB & Aurora schemas<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #NoSQL-Workbench<br/></div>"]
-    D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>YYYY</div>todo 3"]
+    D -->|then| G["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Documented standards for Copilot custom instruction files<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot #RAG<br/></div>"]
     style PreStudentNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style ContractorNode fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style A fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#230519
