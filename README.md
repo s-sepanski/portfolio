@@ -9,8 +9,7 @@ Career contributions over time (WIP):
 - <span style="color:#042748;">&#9632;</span> Chat - A chat or talk delivered to some group of people. Fill: #042748. Stroke: #042e5c.
 - <span style="color:#c2c2c2;">&#9632;</span> Recognition - A recognition, award, or honor offered by some external person or entity. <i>Agradecida que soy por esas cosas, cuando pasen (igual sigo adelante)</i>. Fill: #c2c2c2. Stroke: #343434.
 - <span style="color:#7c7484;">&#9632;</span> Committee - Participation in some committee, board, or task force. Fill: #7c7484. Stroke: #2e092d. <span style="color:#FFFFFF; background:#7c7484; padding:2px 6px; border-radius:3px;">Text: #FFFFFF</span>
-- <span style="color:#1ca9a6;">&#9632;</span> Credential - A certification, degree, or formal credential earned. Fill: #1ca9a6. Stroke: #042748. <span style="color:#FFFFFF; background:#1ca9a6; padding:2px 6px; border-radius:3px;">Text: #FFFFFF</span>
-- <span style="color:#2ecc40;">&#9632;</span> Credential Option 2 - Alternate credential node style. Fill: #2ecc40. Stroke: #046c3c. <span style="color:#FFFFFF; background:#2ecc40; padding:2px 6px; border-radius:3px;">Text: #FFFFFF</span>
+- <span style="color:#5e4b8b;">&#9632;</span> Credential - A certification, degree, or formal credential earned. Fill: #5e4b8b. Stroke: #2e092d. <span style="color:#FFFFFF; background:#5e4b8b; padding:2px 6px; border-radius:3px;">Text: #FFFFFF</span>
 
 ## Label Key for Relationships
 
