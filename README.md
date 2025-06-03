@@ -46,6 +46,8 @@ graph BT
     Creation1 -->|then| Chat["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Gave talk to 50-odd people in technical community on DynamoDB Schema Design<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Single-Table-Design<br/></div>"]
     Chat -->|then| Creation2["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Created internal wikis to document practices for DynamoDB, API Gateway, and KMS<br/><b>Impact: </b>Project-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Serverless #AWS<br/></div>"]
     Creation2 -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>2025-01 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Joined Bank Cloud Enablement team<br/><b>Impact: </b>Company-wide"]
+    B -->|then| CommitteeNode["<div style='font-size:75%; color:#848484; text-align:center;'>2024</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Committee</b></div>100% Rollout of new open account flow across all members<br/><b>Impact: </b>Enterprise-wide"]
+    CommitteeNode -->|then| Creation2
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot<br/></div>"]
     C -->|then| CreationPromptLib["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Configured prompt library for app teams<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot #Amazon-Bedrock<br/></div>"]
     C -->|then| D["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Recorded and shared 15-minute demo showing potential of RAG with prompt libraries for improved development speed<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot #RAG #Prompt-Engineering<br/></div>"]
@@ -70,8 +72,15 @@ graph BT
     style Chat2 fill:#042748,stroke:#042e5c,stroke-width:2px,color:#FFFFFF
     style CreationPromptLib fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
     style CreationDesign fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
+    style CommitteeNode fill:#343c54,stroke:#042748,stroke-width:2px,color:#FFFFFF
     classDef rounded stroke-width:2px,rx:10,ry:10;
-    class PreStudentNode,ContractorNode,A,Credential1,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign rounded;
+    class PreStudentNode,ContractorNode,A,Credential1,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign,CommitteeNode rounded;
+```mermaid.flowchart
+
+```
+```mermaid.flowchart
+
+```mermaid.flowchart
 ```
 
 # Coding Standards for This Project
