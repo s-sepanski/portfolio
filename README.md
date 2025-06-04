@@ -43,7 +43,8 @@ graph BT
     ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2019 to 2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Contractor"] -->|then| A
     A -->|then| JPMCNode["<div style='font-size:75%; color:#848484; text-align:center;'>2021-10</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @JPMC<br>"]
     JPMCNode -->|then| Credential1["<div style='font-size:75%; color:#848484; text-align:center;'>2022</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b></div>Earned Certified AWS Developer - Associate certificate<br/><div style='font-size:75%; color:#848484; text-align:center;'>#AWS</div>"]
-    Credential1 -->|then| Creation1["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Created migration guide for single-table design for DynamoDB<br/><b>Impact: </b>Product-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB<br/></div>"]
+    Credential1 -->|then| USAA2022Node["<div style='font-size:75%; color:#848484; text-align:center;'>2022-10</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Rejoined @USAA<br>"]
+    USAA2022Node -->|then| Creation1["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Created migration guide for single-table design for DynamoDB<br/><b>Impact: </b>Product-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB<br/></div>"]
     Creation1 -->|then| Chat["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Gave talk to 50-odd people in technical community on DynamoDB Schema Design<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Single-Table-Design<br/></div>"]
     Chat -->|then| Creation2["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Created internal wikis to document practices for DynamoDB, API Gateway, and KMS<br/><b>Impact: </b>Project-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Serverless #AWS<br/></div>"]
     Creation2 -->|then| MoveL3["<div style='font-size:75%; color:#848484; text-align:center;'>2024</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b></div>L3"]
@@ -78,8 +79,11 @@ graph BT
     style CommitteeNode fill:#343c54,stroke:#042748,stroke-width:2px,color:#FFFFFF
     style MoveL3 fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style MoveTechLead fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
+    style USAA2022Node fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     classDef rounded stroke-width:2px,rx:10,ry:10;
-    class PreStudentNode,ContractorNode,A,JPMCNode,Credential1,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign,CommitteeNode,MoveL3,MoveTechLead rounded;
+    class PreStudentNode,ContractorNode,A,JPMCNode,Credential1,USAA2022Node,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign,CommitteeNode,MoveL3,MoveTechLead rounded;
+    class USAA2022Node Move;
+    classDef Move fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c;
 ```
 
 # Coding Standards for This Project
