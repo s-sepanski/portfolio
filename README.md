@@ -46,7 +46,8 @@ graph BT
     Creation1 -->|then| Chat["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Gave talk to 50-odd people in technical community on DynamoDB Schema Design<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Single-Table-Design<br/></div>"]
     Chat -->|then| Creation2["<div style='font-size:75%; color:#848484; text-align:center;'>2023</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Created internal wikis to document practices for DynamoDB, API Gateway, and KMS<br/><b>Impact: </b>Project-wide<div style='font-size:75%; color:#848484; text-align:center;'>#DynamoDB #Serverless #AWS<br/></div>"]
     Creation2 -->|then| MoveL3["<div style='font-size:75%; color:#848484; text-align:center;'>2024</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b></div>L3"]
-    MoveL3 -->|then| CommitteeNode["<div style='font-size:75%; color:#848484; text-align:center;'>2024</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b></div>Rollout of new open account flow<br/><b>Impact: </b>Company-wide"]
+    MoveL3 -->|then| MoveTechLead["<div style='font-size:75%; color:#848484; text-align:center;'>2024</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b></div>Tech Lead"]
+    MoveTechLead -->|then| CommitteeNode["<div style='font-size:75%; color:#848484; text-align:center;'>2024</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b></div>Rollout of new open account flow<br/><b>Impact: </b>Company-wide"]
     CommitteeNode -->|then| B["<div style='font-size:75%; color:#848484; text-align:center;'>2025-01 to today</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Joined Bank Cloud Enablement team<br/><b>Impact: </b>Company-wide"]
     B -->|then| C["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Gave talk to 200-odd people in dev community (hosted by Bank Deposits department yet shared enterprise-wide) on GitHub Copilot in collaboration w/ L. Ortin (spoke for second half of hour)<br/><b>Impact: </b>Enterprise-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot<br/></div>"]
     C -->|then| CreationPromptLib["<div style='font-size:75%; color:#848484; text-align:center;'>2025</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L3</b><br/></div>Configured prompt library for app teams<br/><b>Impact: </b>Company-wide<div style='font-size:75%; color:#848484; text-align:center;'>#GitHub-Copilot #Amazon-Bedrock<br/></div>"]
@@ -74,8 +75,9 @@ graph BT
     style CreationDesign fill:#d1193e,stroke:#610b2f,stroke-width:2px,color:#FFFFFF
     style CommitteeNode fill:#343c54,stroke:#042748,stroke-width:2px,color:#FFFFFF
     style MoveL3 fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
+    style MoveTechLead fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     classDef rounded stroke-width:2px,rx:10,ry:10;
-    class PreStudentNode,ContractorNode,A,Credential1,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign,CommitteeNode,MoveL3 rounded;
+    class PreStudentNode,ContractorNode,A,Credential1,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign,CommitteeNode,MoveL3,MoveTechLead rounded;
 ```
 
 # Coding Standards for This Project
