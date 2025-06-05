@@ -41,7 +41,8 @@ Career contributions over time (WIP):
 graph BT
     PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015 to 2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
     ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2019 to 2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Contractor"] -->|then| A
-    A -->|then| JPMCNode["<div style='font-size:75%; color:#848484; text-align:center;'>2021-10</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @JPMC<br>"]
+    A -->|then| Move2021Node["<div style='font-size:75%; color:#848484; text-align:center;'>2021</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b></div>Backup Tech Lead for component ownership team<br/><div style='font-size:75%; color:#848484; text-align:center'>#Active-Directory #Spring-Boot</div>"]
+    Move2021Node -->|then| JPMCNode["<div style='font-size:75%; color:#848484; text-align:center;'>2021-10</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @JPMC<br>"]
     JPMCNode -->|then| APICreationNode["<div style='font-size:75%; color:#848484; text-align:center;'>2021</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b></div>Created team standards for REST APIs for securities exchange<br/><b>Impact: </b>Team-wide<div style='font-size:75%; color:#848484; text-align:center>#API #REST #Standards<br/></div>"]
     APICreationNode -->|then| EKSCreationNode["<div style='font-size:75%; color:#848484; text-align:center;'>2021</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b></div>Created system design docs for multi-region EKS deployment<br/><b>Impact: </b>Team-wide<div style='font-size:75%; color:#848484; text-align:center;'>#EKS #Kubernetes #AWS #System-Design<br/></div>"]
     EKSCreationNode -->|then| Credential1["<div style='font-size:75%; color:#848484; text-align:center;'>2022</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b></div>Earned Certified AWS Developer - Associate certificate<br/><div style='font-size:75%; color:#848484; text-align:center'>#AWS</div>"]
@@ -84,8 +85,9 @@ graph BT
     style MoveL3 fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style MoveTechLead fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     style USAA2022Node fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
+    style Move2021Node fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c
     classDef rounded stroke-width:2px,rx:10,ry:10;
-    class PreStudentNode,ContractorNode,A,JPMCNode,APICreationNode,EKSCreationNode,Credential1,USAA2022Node,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign,CommitteeNode,MoveL3,MoveTechLead rounded;
+    class PreStudentNode,ContractorNode,A,JPMCNode,APICreationNode,EKSCreationNode,Credential1,USAA2022Node,Creation1,Chat,Creation2,B,C,D,E,F,G,Chat2,CreationPromptLib,CreationDesign,CommitteeNode,MoveL3,MoveTechLead,Move2021Node rounded;
     class USAA2022Node Move;
     classDef Move fill:#f58e9f,stroke:#610b2f,stroke-width:2px,color:#1c1c1c;
 ```
