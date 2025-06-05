@@ -39,7 +39,7 @@ Career contributions over time (WIP):
 
 ```mermaid
 graph BT
-    PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015 to 2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br>"]
+    PreStudentNode["<div style='font-size:75%;  color:#848484; text-align:center;'>2015 to 2020</div>Student"] -->|then| A["<div style='font-size:75%; color:#848484; text-align:center;'>2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @USAA<br/><div style='font-size:75%; color:#848484; text-align:center'>#eSign #Spring-Boot #Java #REST-APIs</div>"]
     ContractorNode["<div style='font-size:75%; color:#848484; text-align:center;'>2019 to 2020</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L1</b></div>Contractor"] -->|then| A
     A -->|then| Move2021Node["<div style='font-size:75%; color:#848484; text-align:center;'>2021</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b></div>Backup Tech Lead for component ownership team<br/><div style='font-size:75%; color:#848484; text-align:center'>#Active-Directory #Spring-Boot</div>"]
     Move2021Node -->|then| JPMCNode["<div style='font-size:75%; color:#848484; text-align:center;'>2021-10</div><div style='font-size:75%; color:#848484; text-align:center;'><b>Level: L2</b><br/></div>Joined @JPMC<br>"]
