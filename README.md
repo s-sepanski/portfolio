@@ -19,7 +19,7 @@ Career contributions over time (WIP):
 ## Key for Node Content
 
 - **@**: Indicates having joined or completed work associated with a particular company or organization.
-- **#**: Indicates a skill or technology of interest. Use dashes where spaces would go. TODO
+- **#**: Indicates a skill or technology of interest. Uses dashes where spaces would go. 
 - **Level**: Software engineer level, normalized to L1-L10, as described by [this LinkedIn post](https://www.linkedin.com/pulse/understanding-software-engineer-levels-from-entry-level-senior-pke9c/) (L1-L5) and [levels.fyi](https://www.levels.fyi/blog/swe-level-framework.html) (L6-L10). Style as bold.
 - **Impact**: Impact or reach of specified effort.
   - Enterprise-wide: impactful across companies in the enterprise
